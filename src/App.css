@@ -1,0 +1,62 @@
+#root {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--bgcolor);
+  --bgcolor: #404040;
+  --white: #ffffff;
+  --linkColor: #ff0000;
+  --Transparent: #ffffff00;
+  --testColor: #ffcfcf;
+}
+
+.outletClass{
+  position:relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.Frame1{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content-scaling {
+  transition: transform 0.3s ease;
+}
+
+/* Mobile Options */
+@media screen and (max-width: 980px){
+  .main-content-scaling {
+    transform: scale(1.00);
+  }
+}
+
+@media screen and (max-width: 890px){
+  .main-content-scaling {
+    transform: scale(0.90);
+  }
+}
+
+@media screen and (max-width: 688px){
+  .main-content-scaling {
+    transform: scale(0.85);
+  }
+}
+

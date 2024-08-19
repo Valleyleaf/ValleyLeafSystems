@@ -1,0 +1,27 @@
+.NavClass{
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--bgcolor);
+    overflow: hidden;
+    margin: 1%;
+  }
+
+  .navButton{
+    background-color: var(--Transparent);
+    color: var(--white);
+    transition: transform 0.3s ease;
+  }
+
+  .navButton:hover{
+    background-color: var(--Transparent);
+    color: var(--linkColor);
+    margin-bottom: 50px;
+    border-color:var(--Transparent);
+    transition: transform 0.3s ease;
+    transform: scale(1.3);
+  }

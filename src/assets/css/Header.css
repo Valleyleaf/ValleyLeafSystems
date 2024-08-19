@@ -1,0 +1,50 @@
+.headerClass{
+    position:relative;
+    top:0;
+    display: flex;
+    width: 100%;
+    height: 125px;
+    color: var(--white);
+    background-color: var(--bgcolor);
+    background-image: url('../img/SJshot.jpg');
+    background-attachment: fixed;
+  }
+
+  .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1%;
+  }
+
+  .title{
+    font-size: 30px;
+    color: var(--white);
+    margin: 0px;
+  }
+
+  .pushDown{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+  }
+
+  .title2{
+    font-size: 25px;
+    color: red;
+    margin: 0px;
+  }
+
+
+
+  .flavorText{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: var(--white);
+    font-size: 15px;
+    font-style: italic;
+    margin: 5px 0px 0px 0px;
+  }
