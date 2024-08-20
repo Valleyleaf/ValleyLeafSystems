@@ -1,31 +1,43 @@
+@font-face {
+  font-family: 'TitleFont';
+  src: url('../fonts/BLACKOUT-2AM.TTF') format('truetype'),
+       url('../fonts/BLACKOUT-2AM.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .headerClass{
-    position:relative;
-    top:0;
     display: flex;
-    width: 100%;
-    height: 125px;
     color: var(--white);
-    background-color: var(--bgcolor);
-    background-image: url('../img/SJshot.jpg');
+    background-color: var(--white);
+    /* background-image: url('../img/SJshot.jpg'); */
     background-attachment: fixed;
   }
 
   .logo{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    width: 100%;
     margin: 1%;
+    transition: 0.3s;
   }
 
   .logo:hover{
-    text-decoration: underline;
-    color: rgb(64, 224, 35);
+    transition: 0.3s;
+    margin-left: 3%;
   }
 
+.logoText{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 500px;
+}
+
   .title{
-    font-size: 30px;
-    color: var(--white);
+    font-family: "TitleFont", Verdana, Tahoma;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.986);
     margin: 0px;
   }
 
@@ -36,8 +48,9 @@
   }
 
   .title2{
-    font-size: 25px;
-    color: rgb(64, 224, 35);
+    font-family: "TitleFont", Verdana, Tahoma;
+    font-size: 40px;
+    color: rgb(228, 36, 36);
     margin: 0px;
   }
 
@@ -50,4 +63,5 @@
     font-size: 15px;
     font-style: italic;
     margin: 5px 0px 0px 0px;
+    color: black;
   }

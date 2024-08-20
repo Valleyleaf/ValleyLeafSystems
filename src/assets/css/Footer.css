@@ -1,5 +1,5 @@
 .footerClass{
-
+  position: absolute;
   bottom:0;
   display: flex;
   flex-direction: column;
@@ -9,6 +9,7 @@
   height: 350px;
   color: var(--white);
   background-color: var(--bgcolor);
+  overflow: hidden;
 }
 
 .footerBG{

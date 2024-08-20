@@ -1,11 +1,18 @@
 .homeClass{
   position: relative;
     display: flex;
-    width: 100vh;
+    flex-direction: column;
     height: auto;
     justify-content: center;
     align-items: center;
     color: var(--white);
+  }
 
+  .article{
+    margin: 5%;
+    padding: 1%;
+    height: auto;
+    text-align: left;
+    border: 1px solid red;
   }
   

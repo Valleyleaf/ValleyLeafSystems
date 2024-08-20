@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../assets/img/logo.svg'
 import '../assets/css/Header.css'
 
 export default function Header(){
@@ -18,12 +19,15 @@ export default function Header(){
           className="logo"
           onClick={handleLinkClick}
         >
-                <h2 className="title pushDown">ValleyLeaf</h2>
-                <h2 className="title2">Systems</h2>
-                <p className="flavorText">
-                  <span>Supporting Small Business Development</span> 
-                  <span>in Saint John, NB.</span>
-                </p>
+                <img src={logo} alt="Logo" />
+                <div className="logoText">
+                  <h2 className="title pushDown">ValleyLeaf</h2>
+                  <h2 className="title2">Systems</h2>
+                  <p className="flavorText">
+                    <span>Supporting Small Business in Saint John, NB.</span> 
+                  </p>
+                </div>
+
         </Link>
         </div>
     );
