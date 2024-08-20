@@ -5,7 +5,7 @@ import '../assets/css/Home.css'
 export default function Home(){
     return(
         <div className="homeClass">
-            <h2>Hello</h2>
+            <h2>Content</h2>
         </div>
     );
 };

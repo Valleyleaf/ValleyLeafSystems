@@ -18,6 +18,11 @@
     margin: 1%;
   }
 
+  .logo:hover{
+    text-decoration: underline;
+    color: rgb(64, 224, 35);
+  }
+
   .title{
     font-size: 30px;
     color: var(--white);
@@ -32,11 +37,9 @@
 
   .title2{
     font-size: 25px;
-    color: red;
+    color: rgb(64, 224, 35);
     margin: 0px;
   }
-
-
 
   .flavorText{
     display: flex;
