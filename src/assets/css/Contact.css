@@ -1,0 +1,44 @@
+
+.input{
+    margin: 15px;
+}
+
+.inputArea{
+    width: 500px;
+    max-width: 500px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background for the form */
+    border: 15px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.emailMeButton {
+    display: inline-block; /* Ensures it behaves like a button */
+    padding: 12px 24px; /* Adds comfortable padding */
+    font-size: 16px; /* Makes the text readable */
+    font-weight: bold; /* Makes the text stand out */
+    color: #fff; /* White text */
+    background: linear-gradient(45deg, #000000, #000000); /* Modern gradient background */
+    border-radius: 8px; /* Smoothly rounded corners */
+    text-decoration: none; /* Removes underline for links */
+    text-align: center; /* Centers the text */
+    cursor: pointer; /* Changes cursor to pointer */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .emailMeButton:hover {
+    background: linear-gradient(45deg, #6d0707, #7f0000); /* Darker gradient on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    transform: scale(1.01); /* Slight lift effect */
+  }
+  
+  .emailMeButton:active {
+    background: linear-gradient(45deg, #000000, #000000); /* Even darker on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduces shadow */
+    transform: translateY(0); /* Button returns to normal */
+  }
+  

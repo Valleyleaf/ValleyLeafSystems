@@ -13,11 +13,18 @@ export default function Navbar(){
     };
     return(
         <div className="NavClass">
-                <Link
+                {/* <Link
                 to="/"
                 className="navButton"
                 >
                 Our Work
+                </Link> */}
+
+                <Link
+                to="/"
+                className="navButton"
+                >
+                Services
                 </Link>
 
                 <Link
@@ -27,12 +34,7 @@ export default function Navbar(){
                 Contact
                 </Link>
 
-                <Link
-                to="/Contact"
-                className="navButton"
-                >
-                Services
-                </Link>
+
         </div>
     );
 };

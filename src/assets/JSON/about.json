@@ -1,3 +1,15 @@
 {
-    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "title": "Onsite IT Assistance",
+    "about": "For small businesses, immediate support is crucial. Our onsite IT assistance means that whenever you encounter hardware or software issues—be it system crashes, connectivity problems, or security concerns—we come directly to your location to diagnose and fix the problem. This minimizes downtime, keeps your team productive, and saves you the hassle and cost of remote troubleshooting.",
+    "img": "https://media.istockphoto.com/id/943067460/photo/male-it-specialist-holds-laptop-and-discusses-work-with-female-server-technician-theyre.jpg?s=612x612&w=0&k=20&c=851ArmF2ooz-2yQCRCWkjJLCYwDdpTCYzPinl9WgA_s=",
+
+    "title2": "Hardware Installation & Management",
+    "about2": "We manage everything from setting up new computers, servers, and peripherals to maintaining and upgrading your existing equipment. For a small business, this service guarantees that your hardware is optimally configured, regularly updated, and proactively maintained to avoid unexpected failures. By ensuring your technology is in peak condition, you can focus on growth without worrying about the technical challenges.",
+    "img1": "https://www.shutterstock.com/shutterstock/photos/1932042689/display_1500/stock-photo-businessman-using-mobile-smart-phone-business-global-internet-connection-application-technology-1932042689.jpg",
+
+    "title3": "Infrastructure Planning & Orchestration",
+    "about3": "We provide strategic planning to design an IT infrastructure that’s scalable and tailored to your unique business needs. This service includes everything from network design and cloud integration to data management and cybersecurity planning. For small businesses, this means having a robust, efficient IT system that supports current operations and future growth while ensuring that all technology components work together seamlessly.",
+    "img2": "https://images.theconversation.com/files/382945/original/file-20210208-15-1kyxeyx.jpg?ixlib=rb-4.1.0&rect=36%2C36%2C4883%2C3216&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+
+    "Canlogo": "https://media.istockphoto.com/id/934017954/vector/canada-flag.jpg?s=612x612&w=0&k=20&c=QYOJlgWtujlAPzncX5H4UFPDpySMhoh2iPc_zi2t_zQ="
 }

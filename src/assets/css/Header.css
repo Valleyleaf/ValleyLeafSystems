@@ -10,20 +10,69 @@
     display: flex;
     color: var(--white);
     background-color: var(--white);
-    /* background-image: url('../img/SJshot.jpg'); */
-    background-attachment: fixed;
+    justify-content: space-between;
+  }
+
+  .headerContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   .logo{
     display: flex;
-    width: 100%;
     margin: 1%;
     transition: 0.3s;
   }
 
+  .Canlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30px;
+    height: 20px;
+    margin: 3%;
+    transition: transform 0.3s ease;
+  }
+
+  .Canlogo:hover {
+    animation: zoomWiggle 0.6s ease forwards;
+  }
+  
+  @keyframes zoomWiggle {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+    10% {
+      transform: scale(1.05) rotate(0deg);
+    }
+    20% {
+      transform: scale(1.05) rotate(5deg);
+    }
+    30% {
+      transform: scale(1.05) rotate(-5deg);
+    }
+    40% {
+      transform: scale(1.05) rotate(3deg);
+    }
+    50% {
+      transform: scale(1.05) rotate(-3deg);
+    }
+    60% {
+      transform: scale(1.05) rotate(2deg);
+    }
+    100% {
+      transform: scale(1.05) rotate(0deg);
+    }
+  }
+  
+
   .logo:hover{
     transition: 0.3s;
-    margin-left: 3%;
+    margin-left: 18px;
   }
 
 .logoText{
@@ -64,4 +113,12 @@
     font-style: italic;
     margin: 5px 0px 0px 0px;
     color: black;
+  }
+
+  #phonenumber{
+    margin: 0px;
+  }
+
+  #email{
+    margin: 0px;
   }

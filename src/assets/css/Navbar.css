@@ -1,10 +1,9 @@
 .NavClass{
-  position: relative;
+    position: relative;
     display: flex;
     flex-direction: column;
     height: auto;
     align-items: center;
-    color: var(--white);
     margin: 1%;
   }
 
@@ -12,7 +11,7 @@
     font-family: "titleFont";
     font-size: 30px;
     background-color: var(--Transparent);
-    color: var(--white);
+    color: var(--black);
     margin: 1%;
     transition: transform 0.3s ease;
   }
@@ -22,4 +21,5 @@
     color: var(--linkColor);
     border-color:var(--Transparent);
     transition: transform 0.3s ease;
+    transform: scale(1.05);
   }

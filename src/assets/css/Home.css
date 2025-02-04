@@ -1,18 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: 'TitleFont';
+  src: url('../fonts/BLACKOUT-2AM.TTF') format('truetype'),
+       url('../fonts/BLACKOUT-2AM.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .homeClass{
-  position: relative;
     display: flex;
     flex-direction: column;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    color: var(--white);
+    color: var(--black);
+  }
+
+  .Frame1{
+    display: flex;
+  }
+
+  .articleTitle{
+    font-size: 48px;
+    font-family: "TitleFont", Verdana, Tahoma;
+    margin: 2%;
+    transform: rotate(-4deg);
+  }
+
+  .articleTitle2{
+    font-size: 48px;
+    font-family: "TitleFont", Verdana, Tahoma;
+    margin: 2%;
+    transform: rotate(4deg);
   }
 
   .article{
-    margin: 5%;
-    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    width: 500px;
     height: auto;
+    margin: 5%;
+    padding: 0% 1% 3px 0%;
     text-align: left;
-    border: 1px solid red;
+    border-bottom: 2px solid red;
   }
   
+  .articleGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .gridImage{
+    width: 500px;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    transition: ease 0.3s;
+  }
+
+  .gridImage:hover{
+    width: 500px;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    transition: ease 0.3s;
+    transform: scale(1.01);
+  }
