@@ -66,3 +66,18 @@
     transition: ease 0.3s;
     transform: scale(1.01);
   }
+
+  .learnmoreButton{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: var(--Transparent);
+    color: var(--black);
+    transition: transform 0.3s ease;
+  }
+
+  .learnmoreButton:hover{
+    background-color: var(--Transparent);
+    color: var(--linkColor);
+    border-color:var(--Transparent);
+    transition: transform 0.3s ease;
+  }
