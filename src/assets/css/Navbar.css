@@ -6,6 +6,7 @@
     width: 10%;
     align-items: center;
     margin: 1%;
+    min-width: 110px;
   }
 
   .navButton{
