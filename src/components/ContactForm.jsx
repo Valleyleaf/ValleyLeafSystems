@@ -38,7 +38,7 @@ const ContactForm = () => {
                 <input name="bot-field"/>
             </div>
 
-                <h1>Contact us</h1>
+                <h1 className="contactTtitle">Contact us</h1>
             <label className="flex-container-column">
                 <input 
                 className="inputArea"

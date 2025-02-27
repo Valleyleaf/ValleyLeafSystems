@@ -3,6 +3,12 @@
     margin: 15px;
 }
 
+.contactTtitle{
+  font-family: "titleFont";
+  font-size: 50px;
+  color: var(--black);
+}
+
 .inputArea{
     width: 500px;
     max-width: 500px;

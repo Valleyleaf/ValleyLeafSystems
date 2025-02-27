@@ -3,11 +3,16 @@
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 10%;
     align-items: center;
-    margin: 1%;
-    min-width: 110px;
+    min-width: 100px;
+    transition: transform 0.4s ease-in-out;
+    overflow: hidden;
   }
+
+  .NavClass.closed {
+    position: fixed;
+    transform: translateX(-100%);
+}
 
   .navButton{
     font-family: "titleFont";
@@ -25,3 +30,21 @@
     transition: transform 0.3s ease;
     transform: scale(1.05);
   }
+
+  .toggle-btn {
+    display: flex;
+    position:relative;
+    align-items:baseline;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    background-color: var(--Transparent);
+    color: var(--black);
+}
+
+.toggle-btn:focus {
+  outline: none;
+  border: none;
+}
